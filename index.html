@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/b2a1e6fa31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Piotr Kuraś Portfolio</title>
+</head>
+<body>
+    <div id='stars'></div>
+    <div id='stars2'></div>
+    <div id='stars3'></div>
+    
+    <nav class="menu">
+      <div class="burger">
+        <i class="fa-solid fa-bars active"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div>
+      <ul>
+        <li><a href="#about">O mnie</a></li>
+        <li><a href="#skills">Umiejętności</a></li>
+        <li><a href="#projects">Projekty</a></li>
+        <li><a href="#contacts">Kontakt</a></li>
+      </ul>
+      <img src="/images/logo_transparent.png" alt="logo" class="logo">
+      <div class="changelng"><a href="english.html"><img src="/images/united-kingdom.png" alt=""></a></div>
+    </nav>
+
+    <header>
+      <img src="/images/header_portrait.jpg" alt="logo" class="header-portrait s1">
+      <img src="/images/header-portraitS2.png" alt="logo" class="header-portrait s2">
+      <img src="/images/header-landscape.jpg" alt="logo" class="header-landscape s1">
+      <img src="/images/header-landscapeS2.jpg" alt="logo" class="header-landscape s2">
+      <h1>Piotr Kuraś</h1>
+      <h1>Front End Developer</h1>
+    </header>
+
+    <section class="about-me" id="about">
+      <h1>O mnie</h1>
+      <div class="wrapper">
+        <img src="/images/aboutme-portrait.png" alt="character">
+        <div>
+          <p>Cześć, nazywam się Piotrek</p>
+          <p>Od sierpnia 2022 uczę się na Front-End Developer, a oto efekty mojej dotychczasowej pracy</p>
+          <p>Zapraszam do zapoznania się ze wszelkimi informacjami zawartymi na stronie</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <h1>Umiejętności</h1>
+      <svg class="animated-lines" version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 120"></svg>
+     <div class="all-skills">
+        <div class="skill">
+          <i class="fa-brands fa-html5"></i>
+          <p>HTML5</p>
+          <progress value="90" max="100"></progress>
+        </div>
+  
+        <div class="skill">
+          <i class="fa-brands fa-css3-alt"></i>
+          <p>CSS3</p>
+          <progress value="90" max="100"></progress>
+        </div>
+  
+        <div class="skill">
+          <i class="fa-brands fa-js"></i>
+          <p>JavaScript</p>
+          <progress value="50" max="100"></progress>
+        </div>
+  
+        <div class="skill">
+          <i class="fa-brands fa-sass"></i>
+          <p>Sass</p>
+          <progress value="30" max="100"></progress>
+        </div>
+     </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h1>Projekty</h1>
+     <div class="all-projects">
+        <div class="container line1left">
+          <h2>Projekt 1</h2>
+          <img src="images/project1-portrait.jpg" alt="projekt-example">
+          <a href="podstrony/workinprogress.html">Zobacz więcej!</a>
+        </div>
+  
+        <div class="container line1right">
+          <h2>Projekt 2</h2>
+          <img src="images/project2-portrait.jpg" alt="projekt-example">
+          <a href="podstrony/workinprogress.html">Zobacz więcej!</a>
+        </div>
+  
+        <div class="container line2left">
+          <h2>Projekt 3</h2>
+          <img src="images/project3-portrait.jpg" alt="projekt-example">
+          <a href="podstrony/workinprogress.html">Zobacz więcej!</a>
+        </div>
+  
+        <div class="container line2right">
+          <h2>Projekt 4</h2>
+          <img src="images/project4-portrait.jpg" alt="projekt-example">
+          <a href="podstrony/workinprogress.html">Zobacz więcej!</a>
+        </div>
+     </div>
+    </section>
+
+    <section class="contacts" id="contacts">
+      <div class="all-contacts">
+        <h1>Kontakt</h1>
+        <a href="https://github.com/Piotr-Kuras97"><i class="fa-brands fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/piotr-kura%C5%9B-5a67721b2/"><i class="fa-brands fa-linkedin"></i> Linkedin</a>
+        <a href="mailto:piotr.kuras.1997@gmail.com"><i class="fa-solid fa-envelope"></i> Email</a>
+      </div>
+      <div class="bye">
+        <div>Żegnaj! <span class="waving-hand">👋</span></div>
+      </div>
+      <div class="return"><a href="#">Powrót do góry <i class="fa-solid fa-arrow-up"></i></a></div>
+    </section>
+
+    <footer>	
+      <p>&#169; Piotr Kuraś</p>
+    </footer>
+
+
+
+    <script
+    src="https://code.jquery.com/jquery-3.6.1.min.js"
+    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
